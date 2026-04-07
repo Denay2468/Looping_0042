@@ -13,3 +13,14 @@ int main(){
 cout<<endl;
 
 srand(time(0));
+
+cout<<"Loop while "<<endl;
+x = 1 + rand() % 10;
+
+while (x = 5){
+    cout<<"random number: "<<x<<endl;
+    x = 1 + rand() % 10;
+}
+
+cout<<"the last random while number ="<<x<<endl;
+cout<<endl;
