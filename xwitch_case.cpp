@@ -15,3 +15,27 @@ void input(){
     cin>>departmentcode;
 
 }
+
+void choosemajor (){
+    switch (departmentcode)
+    {
+    case 1:
+
+        departmentname = "Information Technology";
+        quotastatus = "Available (15 chairs)";
+        break;
+    
+    case 2:
+        departmentname = "Electrical Engineering";
+        quotastatus = "Full!";
+        break;
+    
+    case 3:
+        departmentname = "System Information";
+        quotastatus = "Available (5 chairs)";
+        break;
+    
+    default:
+        break;
+    }
+}
