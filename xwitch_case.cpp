@@ -49,3 +49,11 @@ void output(){
     cout<<"Quota Status : "<<quotastatus<<endl;
     cout<<"========================"<<endl;
 }
+
+int main(){
+    input();
+    choosemajor();
+    output();
+
+    return 0;
+}
