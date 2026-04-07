@@ -36,6 +36,8 @@ void choosemajor (){
         break;
     
     default:
+        departmentname = "Invalid choice!";
+        quotastatus = "Please choose a valid department code (1-3)";
         break;
     }
 }
